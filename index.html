@@ -10,6 +10,7 @@
 
 </head>
 <body>
+
     <div class="main-1"  id="top">
         <div class="container">
 
@@ -47,16 +48,16 @@
         <div class="container">
              <!-- header -->
             <header>
-                <a href="#top" class="logo">
+                <a href="/" class="logo">
                     <img src="./src/assets/img/Aksoy logo.jpg" alt="Aksoy" width="150px" height="70px">
                 </a>
                 <nav>
                     <ul class="nav-links">
-                        <li class="hover-underline"><a href="#">Asosiy</a></li>
-                        <li class="hover-underline"><a href="#">Mahsulotlar</a></li>
-                        <li class="hover-underline"><a href="#">Biz haqimizda</a></li>
-                        <li class="hover-underline"><a href="#">Yangiliklar</a></li>
-                        <li class="hover-underline"><a href="#">Aloqa</a></li>
+                        <li class="hover-underline"><a href="#top">Asosiy</a></li>
+                        <li class="hover-underline"><a href="#mahsulotlar">Mahsulotlar</a></li>
+                        <li class="hover-underline"><a href="#bizhaqimizda">Biz haqimizda</a></li>
+                        <li class="hover-underline"><a href="#yangiliklar">Yangiliklar</a></li>
+                        <li class="hover-underline"><a href="#aloqa">Aloqa</a></li>
                     </ul>
                 </nav>
             </header>
@@ -73,39 +74,97 @@
                 <div class="gallery js-flickity" 
                 data-flickity='{"wrapAround": true, "autoPlay": 5000, "prevNextButtons": true, "pageDots": true}'>
                     <div class="carousel-cell" >
-                        <img id="slider" src="./src/assets/img/Aksoy RGB 2345.jpg" alt="Aksoy banner" width="1200" height="500">
+                        <img loading="lazy" id="slider" src="./src/assets/img/Aksoy RGB 2345.jpg" alt="Aksoy banner" width="1200" height="500">
                     </div>
                     <div class="carousel-cell">
-                        <img id="slider" src="./src/assets/img/Aksoy.jpg" alt="Aksoy banner" width="1200" height="500">
+                        <img loading="lazy" id="slider" src="./src/assets/img/Aksoy.jpg" alt="Aksoy banner" width="1200" height="500">
                     </div>
                 </div>
             </div>
 
             <!-- section 1 -->
-            <section class="section-1">
-                <h1>Mahsulotlar</h1>
+            <section class="section-1" id="mahsulotlar">
+                <h1>Bizning mahsulotlar</h1>
+                <p>Quyidagi bo'limlardan birini tanlang</p>
             
                 <div class="products">
                     <div class="askoy-products">
                         <div class="box-1">
                             <img src="./src/assets/img/aksoy-product.jpg" alt="Products" wideth="300" height="300">
-                            <p>Aksoy mahsulotlari</p>
+                            <b>Aksoy mahsulotlari</b>
+                            <p>Bizning milliy mahsulotlar</p>
                         </div>
                     </div>
                     <div class="partners-products">
                         <div class="box-1">
                             <img src="https://oziqovqat.uz/uploads/products/13650/7coot7cjDcpK.jpg" alt="Lakuba" wideth="300" height="300">
-                            <p>Lakuba mahsulotlari</p>
+                            <b>Lakuba mahsulotlari</b>
+                            <p>Bizning hamkor mahsulotlar</p>
                         </div>
                     </div>
                 </div>
-
 
             </section>
 
         </div>
     </div>
 
+
+    <div class="main-footer" id="aloqa">
+        <div class="container">
+            <footer>
+                <div class="about">
+                    <h3>Biz haqimizda</h3>
+                    <hr>
+                    <p>Askoy - sof tabiiy ichimlik suvi!</p>
+                    <div class="icons">
+                        <a href="https://www.instagram.com/aksoy_water/" target="_blank">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                        <a href="https://t.me/aksoywater" target="_blank">
+                           <ion-icon name="navigate-circle-outline"></ion-icon>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="main">
+                    <h3>Asosiy</h3>
+                    <hr>
+                    <ul>
+                        <li><a href="#">Asosiy</a></li>
+                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><a href="#">Bizning mahsulotlar</a></li>
+                        <li><a href="#">Bizning hamkorlar</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="#">Biz bilan aloqa</a></li>
+                    </ul>
+                </div>
+                <div class="timeline">
+                    <h3>Ish soatlari</h3>
+                    <hr>
+                    <div class="times">
+                        <ul>
+                            <li>Aksoy ish vaqtlari:</li>
+                        </ul>
+                        <ul class="second">
+                            <li>08:00 - 18:00</li>
+                            <li>Dushanba - Shanba</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="main-domain">
+        <div class="container">
+            <div class="bottom-part">
+                <b>© All Rghts Reserved by 
+                    <a href="https://t.me/aksoywater" target="_blank">aksoywater</a>
+                </b>
+            </div>
+        </div>
+    </div>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
