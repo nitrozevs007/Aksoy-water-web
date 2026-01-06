@@ -4,3 +4,4 @@ var flkty = new Flickity('.js-flickity', {
     prevNextButtons: false,
     pageDots: true
   });
+
